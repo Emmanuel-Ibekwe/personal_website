@@ -211,8 +211,7 @@ h2 {
  portfolio
  ------------------------------------*/
 .project {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10px;
 }
 
 .project__link:link,
