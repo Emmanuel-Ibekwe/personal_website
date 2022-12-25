@@ -293,7 +293,8 @@ h2 {
 
 .fa-twitter:hover,
 .fa-facebook:hover,
-.fa-linkedin:hover {
+.fa-linkedin:hover,
+.fa-github:hover {
   color: #222;
 }
 
