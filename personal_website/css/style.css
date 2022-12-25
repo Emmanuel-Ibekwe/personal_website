@@ -21,8 +21,14 @@ body {
 
 .navbar-brand a {
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-brand a {
+    font-size: 1.2rem;
+  }
 }
 
 .nav-link {
