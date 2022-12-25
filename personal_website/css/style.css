@@ -16,7 +16,7 @@ body {
   top: 0px;
   z-index: 1;
   width: 100%;
-  padding: 0;
+  padding: 1rem 0;
 }
 
 .navbar-brand a {
@@ -76,7 +76,13 @@ body {
 
 /*-------Opening Quotes--------*/
 .opening-quote {
-  font-size: 1.4rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .opening-quote {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -84,7 +90,6 @@ body {
     font-size: 1.2rem;
   }
 }
-
 
 /*-------- About --------*/
 #about,
