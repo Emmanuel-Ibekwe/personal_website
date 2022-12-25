@@ -76,8 +76,15 @@ body {
 
 /*-------Opening Quotes--------*/
 .opening-quote {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
+
+@media screen and (max-width: 600px) {
+  .opening-quote {
+    font-size: 1.2rem;
+  }
+}
+
 
 /*-------- About --------*/
 #about,
