@@ -253,12 +253,25 @@ h2 {
 
 .project__iframe iframe {
   width: 110%;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .project__overlay a {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.course__link:link,
+.course__link:visited {
+  text-decoration: none;
+  color: #9ba49e;
+}
+
+.course__link:hover,
+.course__link:active {
+  color: #999;
 }
 
 /*------------------------------------
