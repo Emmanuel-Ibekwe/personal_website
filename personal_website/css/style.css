@@ -211,17 +211,26 @@ h2 {
  portfolio
  ------------------------------------*/
 .project {
-  padding: 10px 10px;
+  padding: 10px 10px 20px;
 }
 
-.project__link:link,
-.project__link:visited {
+.project:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid lightgray;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.project__heading:link,
+.project__heading:visited {
   text-decoration: none;
   color: inherit;
 }
 
-.project__link:active,
-.project__link:hover {
+.project__heading:active,
+.project__heading:hover {
   color: #999;
 }
 
