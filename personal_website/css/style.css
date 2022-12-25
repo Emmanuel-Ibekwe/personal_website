@@ -2,6 +2,18 @@ body {
   background-color: #f5f5f5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 1.2rem !important;
+}
+
 /*-------Navigation---------*/
 .header {
   background-image: url("../img/homepage_picture.jpg");
@@ -108,9 +120,9 @@ body {
 .. {
   font-family: helvetica, sans-serif;
 }
-.custom-margin {
+.section {
   margin: 0.1rem;
-  padding: 4rem 1rem;
+  padding: 4rem 3rem;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
   border-radius: 10px;
@@ -187,6 +199,52 @@ h2 {
 .bi {
   margin: 0.25rem;
   font-size: 2.5rem;
+}
+
+/*------------------------------------
+ portfolio
+ ------------------------------------*/
+.project {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.project__link:link,
+.project__link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project__link:active,
+.project__link:hover {
+  color: #999;
+}
+
+.project__iframe {
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 5px;
+  width: 90%;
+  padding: 0;
+}
+
+.project__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: o;
+}
+
+.project__iframe iframe {
+  width: 110%;
+}
+
+.project__overlay a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /*------------------------------------
