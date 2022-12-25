@@ -263,14 +263,14 @@ h2 {
   height: 100%;
 }
 
-.course__link:link,
-.course__link:visited {
+.inline__link:link,
+.inline__link:visited {
   text-decoration: none;
   color: #9ba49e;
 }
 
-.course__link:hover,
-.course__link:active {
+.inline__link:hover,
+.inline__link:active {
   color: #999;
 }
 
