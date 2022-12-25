@@ -1,0 +1,232 @@
+body {
+  background-color: #f5f5f5;
+}
+
+/*-------Navigation---------*/
+.header {
+  background-image: url("../img/homepage_picture.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-brand a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 0.5rem 2rem !important;
+  color: #9ba49e !important;
+  margin: 0 !important;
+  transition: all 500ms ease;
+}
+
+.nav-link:hover,
+.active {
+  color: white !important;
+  font-size: 1.2rem;
+  background-color: #3f3f3f;
+  border-radius: 3px;
+  margin: 0 2px !important;
+}
+
+/*------Back-to-Top-Arrow-------*/
+.back-to-top {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  z-index: 2;
+  background-color: #333;
+  transition: all 500ms ease;
+}
+
+.back-to-top:hover {
+  background-color: #111;
+}
+
+.arrow-icon {
+  transition: all 20s ease;
+}
+
+.bi-arrow-up-short {
+  color: white;
+  font-size: 4rem;
+  margin-top: 10px;
+}
+
+/*-------Opening Quotes--------*/
+.opening-quote {
+  font-size: 2rem;
+}
+
+/*-------- About --------*/
+#about,
+#services,
+#portfolio,
+#blog,
+#contact {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 5rem;
+}
+
+#about {
+  padding: 3rem 0;
+}
+
+.. {
+  font-family: helvetica, sans-serif;
+}
+.custom-margin {
+  margin: 0.1rem;
+  padding: 4rem 1rem;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+  border-radius: 10px;
+}
+
+.progress-bar {
+  margin-bottom: 1rem;
+}
+
+#skill h1 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+#skill p {
+  margin-bottom: 0rem;
+}
+
+.about-me h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.quotes {
+  font-style: italic !important;
+}
+
+/*===== Services =====*/
+
+.service-item {
+  border-radius: 10px;
+}
+
+.service-intro {
+  margin-bottom: 2.5rem;
+}
+
+.center-underline:after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid black;
+  width: 50px;
+  margin: auto;
+}
+#service-item h3 {
+  font-weight: bold;
+}
+
+.service-ico:hover .icon-circle {
+  transition: all 500ms ease;
+  color: #fff;
+  background-color: #222;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.icon-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  padding: 1rem 0.2rem 0.5rem;
+  margin: 1rem auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #222;
+  display: block;
+  box-sizing: border-box;
+}
+
+.bi {
+  margin: 0.25rem;
+  font-size: 2.5rem;
+}
+
+/*------------------------------------
+ Contact
+ ------------------------------------*/
+
+.wrap {
+  background-color: #999;
+  width: 100%;
+}
+
+.contact-wrap {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.contact-h1 {
+  font-size: 1.5rem;
+}
+
+#contact-form {
+  background-color: white;
+}
+
+.socials a {
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: #9ba49e;
+}
+
+.fa-twitter:hover,
+.fa-facebook:hover,
+.fa-linkedin:hover {
+  color: #222;
+}
+
+footer {
+  padding: 2rem 4rem !important;
+  color: white;
+  text-align: center;
+  background-color: rgba(17, 17, 17);
+}
+
+/* 
+     // Extra small devices (portrait phones, less than 576px)
+    // No media query for `xs` since this is the default in Bootstrap
+    
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) { ... }
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) { ... }
+    
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { ... }
+    
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { ... }
+*/
